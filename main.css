@@ -1,0 +1,48 @@
+body {
+    background-color: cornflowerblue;
+}
+
+div {
+    font-size: 150px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgreen;
+}
+
+#parent {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#clock-container {
+    display: flex;
+}
+
+.sep {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    margin-left: 5px;
+    background-color: darkgreen;
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: 500;
+}
