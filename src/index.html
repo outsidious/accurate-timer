@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Accurate timer test</title>
+        <link href="./main.css" rel="stylesheet" />
+        <script src="./main.js"> </script>
+    </head>
+    <body>
+        <div id="parent">
+            <div class="clock-container">
+                <div class="label"> wrong timer </div>
+                <div id="wrong-hours">00</div>
+                <div class="sep">:</div>
+                <div id="wrong-minutes">00</div>
+                <div class="sep">:</div>
+                <div id="wrong-seconds">00</div>
+            </div>
+            <div class="clock-container">
+                <div class="label"> accurate timer </div>
+                <div id="accurate-hours">00</div>
+                <div class="sep">:</div>
+                <div id="accurate-minutes">00</div>
+                <div class="sep">:</div>
+                <div id="accurate-seconds">00</div>
+            </div>
+        </div>
+        <div id="footer">
+            <button id="reset"> Reset </button>
+            <button id="action"> Long sync action </button>
+        </div>
+    </body>
+</html>
